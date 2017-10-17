@@ -20,7 +20,7 @@ public:
     char color;
     std::string type;
     int x,y;
-   std::vector<char> valid;
+    std::vector<char> valid;
     std::vector<std::tuple<int,int> > neighbors;
     int shape = 0; //shape zero means unassigned mid or just reg src too!
 
